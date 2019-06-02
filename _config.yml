@@ -262,6 +262,7 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
+  # 侧栏位置设置，可用值：左 | 右（只对 Pisces 和 Gemini 设计版式有效！）
   position: left
   #position: right
 
@@ -270,8 +271,10 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
-  #display: always
+  # 侧栏显示方式，post 代表只有点进一篇文章内
+  # 且文章有目录，侧栏才会弹出显示
+  #display: post
+  display: always
   #display: hide
   #display: remove
 
@@ -283,7 +286,8 @@ sidebar:
   b2t: false
 
   # Scroll percent label in b2t button
-  scrollpercent: false
+  # 在回到顶部按钮里显示阅读百分比
+  scrollpercent: true
 
 
 # Blog rolls
@@ -299,25 +303,39 @@ sidebar:
 # ---------------------------------------------------------------
 
 # Automatically scroll page to section which is under <!-- more --> mark.
+# 点击 [Read More]，页面自动滚动到 <!-- more --> 标记处
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
+# 用 cookies 保存浏览的位置信息，意味着重新打开这个页面后
+# 页面就会自动滚动到上次的位置，除非读者清理浏览器 cookies
 save_scroll: false
 
 # Automatically excerpt description in homepage as preamble text.
+# 将每篇文章 Front-matter 里 description 的文字作为页面显示的文章摘要
 excerpt_description: true
 
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
+# 按字数自动加入 [Read More]，不建议！
+# 建议在文章中加入 <!-- more -->
+# 自定义 [Read More] 按钮之前要显示的内容！
 auto_excerpt:
   enable: false
   length: 150
 
 # Post meta display settings
+# 文章顶部显示的文章元数据设置
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  #updated_at: false
+  updated_at:
+      enabled: true
+      # If true, show updated date label only if `updated date` different from `created date` (post edited in another day than was created).
+      # And if post will edited in same day as created, edited time will show in popup title under created time label.
+      # If false show anyway, but if post edited in same day, show only edited time.
+      another_day: true
   categories: true
 
 # Post wordcount display settings
