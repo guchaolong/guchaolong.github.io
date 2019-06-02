@@ -1,47 +1,80 @@
 ---
-layout: compress
+layout: blog
 ---
-
-<!DOCTYPE html>
-<html>
-{% include head.html %}
-<body id="posts" class="inner-post-page">
-
-    <div class="block-left">
-      <div class="content">
-        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
-        <div class="post-title-section">
-          <div class="section-line">Posts <em>/</em></div>
-          <h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-          <ul class="tags">
-            {% for tag in page.tags %}
-              <li><a href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a></li>
-              {% unless forloop.last %}
-              {% endunless %}
-            {% endfor %}
-          </ul>
-          <div class="section-line reverse"><a href="{{ site.url}}/posts">Back to posts</a> <em>/</em></div>
+<article class="unit-article layout-post">
+    <div class="unit-inner unit-article-inner">
+        <div itemscope itemtype="http://schema.org/Article" class="content">
+            <header>
+                <div class="unit-head">
+                    <div class="unit-inner unit-head-inner">
+                        <h1 class="entry-title" itemprop="name">{{ page.title }}</h1>
+                    </div>
+                </div>
+            </header>
+            <div class="bd article-content">
+                <div class="entry-content">
+                    <div class="meta">
+                        <p class="date-publish">
+                            {{ site.data.i18n[site.lang].published }}:
+                            <time itemprop="datePublished" class="date-pub {% if page.last_updated == null %}updated{% endif %}"
+                                title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time>
+                            by
+                            <a class="author" href="/" rel="author" title="{{ site.data.i18n[site.lang].show_author }}">
+                                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                    <span itemprop="name">{% if page.author == null %}{{ site.author.name }}{% else %}{{ page.author }}{% endif %}</span>
+                                </span>
+                            </a>
+                            {% if site.blog.cc_license and site.blog.cc_license_image %}
+                                <a class="license-icon" rel="license" href="{{ site.blog.cc_license }}" target="_blank" title="{{ site.data.i18n[site.lang].show_license }}">
+                                    <img alt="Creative Commons Licence" style="border-width:0" src="{{ site.blog.cc_license_image | relative_url }}"  height="16" width="80"/>
+                                </a>
+                            {% endif %}
+                            {% if page.last_updated %}
+                                ({{ site.data.i18n[site.lang].last_updated}}:
+                                <time class="date-updated updated" title="{{ page.last_updated | date_to_xmlschema }}" datetime="{{ page.last_updated | date_to_xmlschema }}">{{ page.last_updated }}</time>)
+                            {% endif %}
+                        </p>
+                        <ul class="list-category list-linear">
+                            <li class="list-head">{{ site.data.i18n[site.lang].categories }}: </li>
+                            {% assign categories_list = page.categories | sort %} {% include helpers/categories_list %}
+                        </ul>
+                        <ul class="list-tag list-linear">
+                            <li class="list-head">{{ site.data.i18n[site.lang].tags }}: </li>
+                            {% assign tags_list = page.tags | sort %} {% include helpers/tags_list %}
+                        </ul>
+                    </div>
+                    <div itemprop="articleBody">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+            <footer class="unit-foot">
+                <div class="unit-inner unit-foot-inner">
+                    <div class="post-buttons">
+                        <a class="internal gotop" href="#page" title="{{ site.data.i18n[site.lang].back_to_top }}">{{ site.data.i18n[site.lang].back_to_top }}</a>
+                        {% if site.addthis_public_id %}
+                            {% include common/addthis.html %}
+                        {% endif %}
+                    </div>
+                    <nav class="pagination">
+                        {% if page.previous %}
+                            <a class="internal" rel="prev" href="{{ page.previous.url | relative_url }}" title="{{ site.data.i18n[site.lang].previous_post }} '{{ page.previous.title }}'"> ← {{ page.previous.title }}</a>
+                        {% endif %}
+                        {% if page.next %}
+                            <a class="internal" rel="next" href="{{ page.next.url | relative_url }}" title="{{ site.data.i18n[site.lang].next_post }} '{{ page.next.title }}'">{{ page.next.title }} → </a>
+                        {% endif %}
+                    </nav>
+                </div>
+            </footer>
+            <div class="misc-content">
+                {% if site.disqus.shortname and page.comments != false %}
+                    {% include common/disqus.html %}
+                    <div class="comments">
+                        <button class="center-block show-hidden" title="{{ site.data.i18n[site.lang].show_comments }}" data-disqus-url="{{ page.url | absolute_url }}">{{ site.data.i18n[site.lang].show_comments }}</button>
+                        <div id="disqus_thread"></div>
+                    </div>
+                {% endif %}
+            </div>
         </div>
-      </div>
     </div>
-
-    <div class="block-right">
-      <div class="share-buttons">
-        {% include share.html %}
-      </div>
-      <a href="../posts.html" title="posts" class="posts-menu-icon"></a>
-      <a title="projects" class="projects-menu-icon">
-        <span></span>
-      </a>
-      <div class="inner-post content">
-        <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
-        {{ content }}
-        <br>
-        {% include share.html %}
-        {% include page-pagination.html %}
-      </div>
-    </div>
-    {% include scripts.html %}
-    {% include overlay.html %}
-</body>
-</html>
+</article>

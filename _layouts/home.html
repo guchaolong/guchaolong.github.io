@@ -1,43 +1,61 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
-<html>
-{% include head.html %}
-<body id="homepage">
 
-  <div class="block-left">
-    <div class="content">
-      <div class="main-info">
-        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
-        <h1>
-          {{ site.title }}
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="{{ site.lang }}">
+<!--<![endif]-->
+
+<head>
+    {% include common/meta.html %}
+    <link href='{{ site.baseurl }}/assets/stylesheets/home.css' rel="stylesheet" type="text/css">
+    {% include common/libraries.html %}
+    {% if site.google_tag_manager %}
+        {% include common/gtm-head.html %}
+    {% endif %}
+</head>
+
+<body>
+    {% if site.google_tag_manager %}
+        {% include common/gtm-body.html %}
+    {% endif %}
+
+    <ul id="menu">
+        <li data-menuanchor="bio"><a href="#bio">Biography</a></li>
+        <li data-menuanchor="social"><a href="#social">Social Links</a></li>
+    </ul>
+
+    <div id="section0" class="section" data-name="bio">
+
+        {% include common/notices.html %}
+
+        <div class="headings animated fadeInLeft">
+            {% if site.home.section1 %}{{ site.home.section1 }}{% endif %}
+            {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
+            {% if site.home.section3 %}{{ site.home.section3 }}{% endif %}
+        </div>
+        <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
+    </div>
+
+    <div id="section1" class="section" data-name="social">
+        <h1 class="animated hidden">
+            <a class="btn-enter btn-light" title="{{ site.data.i18n[site.lang].enter_blog }}" href="{{ site.paths.blog | relative_url }}">{{ site.data.i18n[site.lang].enter_blog }}</a>
         </h1>
-        <h2>
-          {{ site.description }}
-        </h2>
-        {% include social-links.html %}
-      </div>
+        <div class="social-links animated hidden">
+            <a class="btn-light ico-rss" href="{{ site.baseurl }}/feed.xml" rel="me" target="_blank" title="feed"></a>
+            {% if site.author.email %}
+                <a class="btn-light ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
+            {% endif %}
+            {% for link in site.author.social_links %}
+                {% if link.url %}
+                    <a class="btn-light ico-{{ link.name }}" href="{{ link.url }}" rel="me" target="_blank" title="{{ link.name }}"></a>
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
-    <canvas></canvas>
-  </div>
 
-  <div class="block-right">
-    <a href="{{ site.url }}/posts" title="posts" class="posts-menu-icon"></a>
-    <span class="posts-link">POSTS</span>
-    <a title="project" class="projects-menu-icon">
-      <span></span>
-    </a>
-    <span class="projects-link">PROJECTS</span>
-    <div class="content">
-      <div class="about-info">
-        {{ content }}
-      </div>
-    </div>
-  </div>
-  {% include overlay.html %}
-  {% include scripts.html %}
-  <script src="{{ site.url }}/assets/js/canvas.js"></script>
+    {% include home/scripts.html %}
 </body>
+
 </html>
