@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,32 +11,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/_schemes/Pisces/index.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="241">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/category/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="_sidebar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_schemes/Pisces/_sidebar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="450">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar-blogroll.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/_schemes/Mist/sidebar/sidebar-blogroll.scss">
+      <file leaf-file-name="lineno.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/_helper/lineno.html">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="zh-Hans.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_data/languages/zh-Hans.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
@@ -82,11 +89,6 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="_posts.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/_schemes/Pisces/_posts.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -109,6 +111,7 @@
       <find>z-index</find>
       <find>1039</find>
       <find>$zindex-4</find>
+      <find>l</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,6 +199,17 @@
             <path>
               <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_data" type="462c0819:PsiDirectoryNode" />
+              <item name="languages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,72 +259,6 @@
             <path>
               <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_common" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_common" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="sidebar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_mixins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_schemes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_schemes" type="462c0819:PsiDirectoryNode" />
-              <item name="Mist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_schemes" type="462c0819:PsiDirectoryNode" />
-              <item name="Mist" type="462c0819:PsiDirectoryNode" />
-              <item name="sidebar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_schemes" type="462c0819:PsiDirectoryNode" />
-              <item name="Pisces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_variables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,6 +277,11 @@
               <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,12 +365,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559482874866</updated>
-      <workItem from="1559482876793" duration="10620000" />
+      <workItem from="1559482876793" duration="11134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10620000" />
+    <option name="totallyTimeSpent" value="11134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -459,12 +412,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/category.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/archive.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-22-Linux学习笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -567,13 +514,6 @@
             <caret line="6" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/languages/zh-Hans.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -691,13 +631,6 @@
     <entry file="file://$PROJECT_DIR$/_sass/_schemes/Pisces/_posts.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_schemes/Pisces/_sidebar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_schemes/Mist/sidebar/sidebar-blogroll.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -737,8 +670,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="241">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_schemes/Pisces/_sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/_helper/lineno.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/languages/zh-Hans.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -6,6 +6,7 @@
    author:     guchaolong
    header-img: img/post-bg-re-vs-ng2.jpg
    catalog: true
+   category: 框架
    tags:
        - Axon
 ---
