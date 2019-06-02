@@ -6,7 +6,7 @@ date:       2018-11-22
 author:     guchaolong
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
-category: 操作系统
+category: Java
 tags:
        - Java
 ---
