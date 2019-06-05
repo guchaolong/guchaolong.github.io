@@ -32,24 +32,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-12-09-Java基础知识.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-12-09-Java基础知识.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="458">
-                <caret line="350" column="17" lean-forward="true" selection-start-line="350" selection-start-column="17" selection-end-line="350" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-12-09-第一篇 Java基础知识.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-第一篇 Java基础知识.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <first_editor relative-caret-position="1598">
+                <caret line="434" column="22" lean-forward="true" selection-start-line="434" selection-start-column="22" selection-end-line="434" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -169,8 +157,8 @@
         <option value="$PROJECT_DIR$/_posts/2019-01-22-Linux学习笔记.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-11-25-Java8函数式编程 lambda Stream.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md" />
         <option value="$PROJECT_DIR$/_posts/2018-12-09-第一篇 Java基础知识.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md" />
       </list>
     </option>
   </component>
@@ -191,7 +179,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -321,15 +309,15 @@
       <updated>1559482874866</updated>
       <workItem from="1559482876793" duration="15144000" />
       <workItem from="1559511102861" duration="1312000" />
-      <workItem from="1559617524509" duration="7353000" />
+      <workItem from="1559617524509" duration="7628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23809000" />
+    <option name="totallyTimeSpent" value="24084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -631,21 +619,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-第一篇 Java基础知识.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="458">
-            <caret line="350" column="17" lean-forward="true" selection-start-line="350" selection-start-column="17" selection-end-line="350" selection-end-column="17" />
+          <first_editor relative-caret-position="-6002">
+            <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-第一篇 Java基础知识.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <first_editor relative-caret-position="1598">
+            <caret line="434" column="22" lean-forward="true" selection-start-line="434" selection-start-column="22" selection-end-line="434" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
