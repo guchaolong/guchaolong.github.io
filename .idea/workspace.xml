@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,24 +47,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-12-09-Java基础知识.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-12-09-Java基础知识.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="443">
-                <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+                <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-11-22-Markdown语法.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-11-22-Markdown语法.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="143">
-                <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <first_editor relative-caret-position="383">
+                <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -171,10 +171,10 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-11-25-Java8函数式编程 lambda Stream.md" />
         <option value="$PROJECT_DIR$/_posts/2018-12-09-第一篇 Java基础知识.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md" />
         <option value="$PROJECT_DIR$/_posts/2019-06-06-排序算法.md" />
         <option value="$PROJECT_DIR$/_posts/2019-01-22-Linux学习笔记.md" />
         <option value="$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md" />
       </list>
     </option>
   </component>
@@ -242,9 +242,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,12 +329,13 @@
       <workItem from="1559806195528" duration="5254000" />
       <workItem from="1560594465909" duration="1336000" />
       <workItem from="1561488273223" duration="621000" />
-      <workItem from="1562075777226" duration="780000" />
+      <workItem from="1562075777226" duration="1401000" />
+      <workItem from="1562377550384" duration="1343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36303000" />
+    <option name="totallyTimeSpent" value="38267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -353,7 +354,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24412094" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09381663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -579,21 +580,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="143">
-            <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <first_editor relative-caret-position="443">
+            <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="443">
-            <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <first_editor relative-caret-position="383">
+            <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
