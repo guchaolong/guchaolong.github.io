@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-17-Git总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-17-Git总结.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,18 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2019-07-21-前端.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-07-21-前端.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1080">
-                <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2019-07-31-消息中间件.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-07-31-消息中间件.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -87,12 +75,17 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-17-Git总结.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1853">
-                <caret line="140" column="29" lean-forward="true" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
+              <first_editor relative-caret-position="157">
+                <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="95" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts_img/git.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="2019-08-11-项目架构.md" pinned="false" current-in-tab="false">
@@ -189,7 +182,6 @@
       <list>
         <option value="$PROJECT_DIR$/about/index.md" />
         <option value="$PROJECT_DIR$/_posts/2018-11-25-Axon Framework.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-11-17-Git总结.md" />
         <option value="$PROJECT_DIR$/_posts/2018-12-12-第二篇-Java集合、IO.md" />
         <option value="$PROJECT_DIR$/_posts/2018-12-21-第三篇 加密、安全.md" />
         <option value="$PROJECT_DIR$/_posts/2018-12-22-第四篇 并发.md" />
@@ -206,6 +198,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md" />
         <option value="$PROJECT_DIR$/_posts/2019-08-11-项目架构.md" />
         <option value="$PROJECT_DIR$/_posts/2019-08-06-代码大全.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-11-17-Git总结.md" />
       </list>
     </option>
   </component>
@@ -253,6 +246,11 @@
               <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts_img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -405,15 +403,16 @@
       <workItem from="1564590752828" duration="743000" />
       <workItem from="1565104675430" duration="2692000" />
       <workItem from="1565107783990" duration="12296000" />
-      <workItem from="1566923564420" duration="252000" />
+      <workItem from="1566923564420" duration="562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69642000" />
+    <option name="totallyTimeSpent" value="69952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -451,9 +450,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/images/cc-by-sa.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/cc-zero.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -706,11 +702,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts_img/git.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-17-Git总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1853">
-            <caret line="140" column="29" lean-forward="true" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
+          <first_editor relative-caret-position="157">
+            <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="95" />
           </first_editor>
           <second_editor />
         </state>
