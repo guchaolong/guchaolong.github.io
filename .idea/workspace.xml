@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md" afterDir="false" />
-    </list>
+    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="602">
-                <caret line="141" column="6" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
+              <first_editor relative-caret-position="482">
+                <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -325,12 +323,12 @@
       <workItem from="1566923564420" duration="1235000" />
       <workItem from="1567090220099" duration="602000" />
       <workItem from="1567091386224" duration="598000" />
-      <workItem from="1567236936014" duration="5949000" />
+      <workItem from="1567236936014" duration="6282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77774000" />
+    <option name="totallyTimeSpent" value="78107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -346,10 +344,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20044793" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20044793" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -637,8 +635,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="602">
-            <caret line="141" column="6" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
+          <first_editor relative-caret-position="482">
+            <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
