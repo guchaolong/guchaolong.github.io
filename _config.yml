@@ -2,7 +2,7 @@
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
-
+post_asset_folder: true
 # Site
 title: Zeki's Blog
 subtitle: stay hungry,stay foolish.
