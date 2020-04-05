@@ -11,50 +11,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2019-06-06-排序算法.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-06-06-排序算法.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="469">
-                <caret line="253" column="9" lean-forward="true" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019-07-21-前端.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-07-21-前端.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1080">
-                <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019-07-31-消息中间件.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-07-31-消息中间件.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-11-22-Markdown语法.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-11-22-Markdown语法.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1053">
-                <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+              <first_editor relative-caret-position="1290">
+                <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="de.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/languages/de.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1975">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_class.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/_blocks/page_class.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/404.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="search.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sass/_common/components/footer/footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -65,18 +70,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="390">
                 <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019-08-01-缓存.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-08-01-缓存.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="480">
-                <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -119,23 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-01-22-Linux学习笔记.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-01-22-Linux学习笔记.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3480">
-                <caret line="116" selection-start-line="116" selection-end-line="116" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>menu</find>
       <find>more</find>
       <find>footer</find>
       <find>font</find>
@@ -165,6 +145,7 @@
       <find>jmm1</find>
       <find>post_asset_folder</find>
       <find>cpu_</find>
+      <find>博</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,7 +191,6 @@
         <option value="$PROJECT_DIR$/_posts/2018-12-09-第一篇 Java基础知识.md" />
         <option value="$PROJECT_DIR$/_posts/2019-06-06-排序算法.md" />
         <option value="$PROJECT_DIR$/_posts/2019-01-22-Linux学习笔记.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md" />
         <option value="$PROJECT_DIR$/_posts/2019-07-21-前端.md" />
         <option value="$PROJECT_DIR$/_posts/2019-08-01-缓存.md" />
         <option value="$PROJECT_DIR$/_posts/2019-07-31-消息中间件.md" />
@@ -221,6 +201,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-01-05-深入理解Java虚拟机.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-12-09-Java基础知识.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md" />
       </list>
     </option>
   </component>
@@ -241,7 +222,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -266,12 +247,60 @@
             <path>
               <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_data" type="462c0819:PsiDirectoryNode" />
+              <item name="languages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="_blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts_img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="_common" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guchaolong.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guchaolong.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="_common" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -382,15 +411,15 @@
       <workItem from="1572530211047" duration="597000" />
       <workItem from="1578155116356" duration="4770000" />
       <workItem from="1583329597574" duration="627000" />
-      <workItem from="1584867402748" duration="3730000" />
+      <workItem from="1584867402748" duration="6595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93341000" />
+    <option name="totallyTimeSpent" value="96206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -408,6 +437,7 @@
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -419,7 +449,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,13 +458,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/lib/font-awesome/fonts/fontawesome-webfont.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-02-06-快速搭建个人博客.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-12-12-第二篇-Java集合、IO.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-12-22-第四篇 并发.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-12-21-第三篇 加密、安全.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-12-23-第五篇 网络编程.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-25-Java8函数式编程 lambda Stream.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-12-09-第一篇 Java基础知识.md" />
@@ -697,10 +719,41 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-22-Markdown语法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1053">
-            <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <first_editor relative-caret-position="1290">
+            <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/languages/de.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1975">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/_blocks/page_class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_common/components/footer/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
         </state>
       </provider>
     </entry>
