@@ -122,7 +122,7 @@
       <find>footer</find>
       <find>font</find>
       <find>关于</find>
-      <find>sidebar sidebar-active</find>
+      <find />
       <find>position</find>
       <find>sidebar</find>
       <find>page-post-detail</find>
@@ -226,7 +226,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
