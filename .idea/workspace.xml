@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../design-pattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -107,6 +107,7 @@
       <workItem from="1590912653997" duration="2884000" />
       <workItem from="1591420569166" duration="1516000" />
       <workItem from="1591439362088" duration="609000" />
+      <workItem from="1593075626802" duration="1257000" />
     </task>
     <servers />
   </component>
