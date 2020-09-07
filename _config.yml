@@ -7,7 +7,7 @@ post_asset_folder: true
 title: zEKi丶L's Blog
 subtitle: stay hungry,stay foolish.
 description: stay hungry,stay foolish.
-author: Zeki
+author: zEKi丶L
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -406,7 +406,7 @@ baidu_analytics: 70b7e141dfc0ea2b204682f94ab2e01a
 # Disqus
 disqus:
   enable: true
-  shortname: zeki
+  shortname: zEKi丶L
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -662,14 +662,14 @@ canvas_nest: true
 three_waves: false
 
 # canvas_lines
-canvas_lines: true
+canvas_lines: false
 
 # canvas_sphere
-canvas_sphere: true
+canvas_sphere: false
 
 # Only fit scheme Pisces
 # Canvas-ribbon
-canvas_ribbon: true
+canvas_ribbon: false
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
