@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +118,7 @@
       <workItem from="1597780175268" duration="744000" />
       <workItem from="1598611306968" duration="1864000" />
       <workItem from="1599076655606" duration="626000" />
-      <workItem from="1599436534584" duration="2168000" />
+      <workItem from="1599436534584" duration="2611000" />
     </task>
     <servers />
   </component>
@@ -141,10 +138,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599076666561" />
-    <state x="662" y="252" width="647" height="536" key="find.popup" timestamp="1599438658869">
+    <state x="662" y="252" width="647" height="536" key="find.popup" timestamp="1599439717446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="647" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599438658869" />
+    <state x="662" y="252" width="647" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599439717446" />
     <state x="334" y="180" key="new project wizard" timestamp="1590937990144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
