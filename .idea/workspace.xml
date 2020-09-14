@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="" />
+    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-01-缓存.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-08-01-缓存.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java_project_stack" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -41,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\guchaolong.github.io\_posts" />
       <recent name="E:\guchaolong.github.io\_posts" />
       <recent name="E:\guchaolong.github.io\_posts_img" />
     </key>
@@ -118,7 +122,9 @@
       <workItem from="1597780175268" duration="744000" />
       <workItem from="1598611306968" duration="1864000" />
       <workItem from="1599076655606" duration="626000" />
-      <workItem from="1599436534584" duration="5294000" />
+      <workItem from="1599436534584" duration="5933000" />
+      <workItem from="1599486724666" duration="2052000" />
+      <workItem from="1600043297223" duration="4077000" />
     </task>
     <servers />
   </component>
@@ -130,26 +136,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599439978388" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597761726167">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600052670499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597761726167" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600052670499" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1597759414292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597759414292" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599076666561">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600098013139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599076666561" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600098013139" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599491129653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599491129653" />
     <state x="662" y="252" width="647" height="536" key="find.popup" timestamp="1599439904181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="252" width="647" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599439904181" />
-    <state x="334" y="180" key="new project wizard" timestamp="1590937990144">
+    <state x="334" y="121" key="new project wizard" timestamp="1600052603701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590937990144" />
+    <state x="334" y="121" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600052603701" />
   </component>
   <component name="masterDetails">
     <states>
