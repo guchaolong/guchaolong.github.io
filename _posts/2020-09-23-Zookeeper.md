@@ -177,6 +177,37 @@ deleteall znode名称 #删除当前节点和全部字节点
 
 
 
+#### 5.2 集群中节点的角色
+
+> 1、Leader
+>
+> Master主节点
+>
+> 2、Flower （默认的从节点）
+>
+> 从节点， 参与选举全新的leader 投票
+>
+> 3、Observer
+>
+> 从节点，不参与投票 
+>
+> 4、Looking
+>
+> 正在找leader节点
+
+
+
+#### 5.3 zookeeper投票策略
+
+> 1、每一个zookeeper服务都会被分配一个全局唯一的myid,  myid是一个数字
+>
+> 2、zookeeper在执行写数据时，每一个节点都有一个自己的FIFO队列。保证写每一个数据的时候，顺序是不会乱的，zookeeper还会给每一个数据分配一个全局唯一的zxid，数据越新zxid就越大
+
+> 选举Leader:
+>
+> 1. 选举出zxid最大的节点作为Leader
+> 2. 在zxid相同的节点中，选举出一个myid最大的节点作为Leader
+
 
 
 
