@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-01-22-Linux学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-01-22-Linux学习笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-23-Zookeeper.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-23-Zookeeper.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts_img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -44,10 +44,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\guchaolong.github.io\_posts" />
       <recent name="E:\project\guchaolong.github.io\_posts_img" />
+      <recent name="E:\project\guchaolong.github.io\_posts_img\rocket_mq" />
+      <recent name="E:\project\guchaolong.github.io\_posts" />
       <recent name="E:\guchaolong.github.io\_posts" />
       <recent name="E:\guchaolong.github.io\_posts_img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\guchaolong.github.io\_posts_img" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,6 +141,8 @@
       <workItem from="1602264515341" duration="19000" />
       <workItem from="1602510391588" duration="3678000" />
       <workItem from="1602679365892" duration="1404000" />
+      <workItem from="1602916298826" duration="1347000" />
+      <workItem from="1602926395712" duration="3000000" />
     </task>
     <servers />
   </component>
@@ -172,10 +178,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600098013139" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600845224188">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1602926430097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600845224188" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602926430097" />
     <state x="662" y="252" width="647" height="536" key="find.popup" timestamp="1599439904181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -93,10 +93,11 @@ get 节点名称
 > 2 创建节点
 
 ```sh
-create [-s] [-e] znode名称 znode数据
+create [-s] [-e] [-c] znode名称 znode数据
 
 # -s : sequence，有序节点
 # -e ：ephemeral,临时节点
+# -c ：container,容器节点
 ```
 
 
@@ -168,6 +169,14 @@ delete znode名称 #删除没有字节的znode
 deleteall znode名称 #删除当前节点和全部字节点
 ```
 
+
+# 注册中心
+![Image text](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/zkregistercenter.png)
+
+# 分布式锁
+![Image text](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/zkfbss.png)
+> 以上方案存在羊群效应，1000个请求，有一个获得锁，其他999个都在监听等待，下一次，唤醒，又有998去监听等待
+![Image text](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/znfbss2.png)
 
 
 # 五.Zookeeper集群
