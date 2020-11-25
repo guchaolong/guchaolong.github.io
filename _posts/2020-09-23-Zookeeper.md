@@ -254,11 +254,11 @@ services:
 
 
 
-/opt/docker_zk/目录下创建docker-compose.yml文件，贴上以上内容
-
-执行命令： ```docker-compose up -d```
-
-docker下进入某个实例： ```docker exec -it 实例id bash```
+> /opt/docker_zk/目录下创建docker-compose.yml文件，贴上以上内容
+>
+> 执行命令： ```docker-compose up -d```
+>
+> docker下进入某个实例： ```docker exec -it 实例id bash```
 
 
 
