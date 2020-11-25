@@ -217,6 +217,51 @@ deleteall znode名称 #删除当前节点和全部字节点
 > 1. 选举出zxid最大的节点作为Leader
 > 2. 在zxid相同的节点中，选举出一个myid最大的节点作为Leader
 
+#### 5.4 docker-compose搭建zookeeper集群
+
+```yml
+version: "3.1"
+services:
+  zk1:
+    image: zookeeper
+    restart: always
+    container_name: zk1
+    ports:
+      - 2181:2181
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_SERVERS: server.1=zk1:2888:3888;2181 server.2=zk2:2888:3888;2181 server.3=zk3:2888:3888;2181
+  zk2:
+    image: zookeeper
+    restart: always
+    container_name: zk2
+    ports:
+      - 2182:2181
+    environment:
+      ZOO_MY_ID: 2
+      ZOO_SERVERS: server.1=zk1:2888:3888;2181 server.2=zk2:2888:3888;2181 server.3=zk3:2888:3888;2181
+  zk3:
+    image: zookeeper
+    restart: always
+    container_name: zk3
+    ports:
+      - 2183:2181
+    environment:
+      ZOO_MY_ID: 3
+      ZOO_SERVERS: server.1=zk1:2888:3888;2181 server.2=zk2:2888:3888;2181 server.3=zk3:2888:3888;2181
+
+```
+
+
+
+/opt/docker_zk/目录下创建docker-compose.yml文件，贴上以上内容
+
+执行命令： ```docker-compose up -d```
+
+docker下进入某个实例： ```docker exec -it 实例id bash```
+
+
+
 
 
 
