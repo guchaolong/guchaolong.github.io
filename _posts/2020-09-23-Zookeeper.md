@@ -11,7 +11,7 @@ tags:
        - Java
 ---
 
-> Zookeeper 开源的 为分布式应用程序提供协调服务的apache项目
+> Zookeeper **开源**的 为**分布式应用程序**提供**协调服务**的**apache项目**
 
 # 一.Zookeeper介绍
 
@@ -25,9 +25,9 @@ tags:
 
 #### 1.2 zookeeper介绍
 
-> zookeeper本身是hadoop生态圈中的一个组件，但是由于强大的功能，在java分布式架构中，也频繁用到zookeeper、
+> zookeeper本身是**hadoop生态圈**中的一个**组件**，但是由于强大的功能，在java分布式架构中，也频繁用到zookeeper、
 
-> zookeeper就是一个文件系统+监听通知机制
+> zookeeper就是一个**文件系统**+**监听通知机制**
 
 
 
@@ -216,6 +216,12 @@ deleteall znode名称 #删除当前节点和全部字节点
 >
 > 1. 选举出zxid最大的节点作为Leader
 > 2. 在zxid相同的节点中，选举出一个myid最大的节点作为Leader
+
+>leader选举发生：
+>
+>1. 集群启动
+>2. leader挂掉
+>3. flower挂掉，leader发现没有过半的flower追随自己了
 
 #### 5.4 docker-compose搭建zookeeper集群
 
