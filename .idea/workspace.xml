@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-08-设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-08-设计模式.md" afterDir="false" />
-    </list>
+    <list default="true" id="7b501b82-b50d-48dd-85c9-210af4cdd879" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,12 +158,24 @@
       <workItem from="1646841943039" duration="571000" />
       <workItem from="1652108189284" duration="1013000" />
       <workItem from="1652895064130" duration="1168000" />
-      <workItem from="1670515510479" duration="972000" />
+      <workItem from="1670515510479" duration="1253000" />
     </task>
+    <task id="LOCAL-00001" summary="de">
+      <created>1670517542053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670517542053</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="de" />
+    <option name="LAST_COMMIT_MESSAGE" value="de" />
   </component>
   <component name="WindowStateProjectService">
     <state x="569" y="112" width="902" height="816" key="CommitChangelistDialog2" timestamp="1670517539529">
