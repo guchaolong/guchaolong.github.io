@@ -19,7 +19,7 @@ baseurl:
 permalink: pretty
 
 # Pagination
-paginate: 10
+paginate: 20
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -275,8 +275,8 @@ sidebar:
   # 侧栏显示方式，post 代表只有点进一篇文章内
   # 且文章有目录，侧栏才会弹出显示
   #display: post
-  display: always
-  #display: hide
+#  display: always
+  display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
@@ -288,7 +288,7 @@ sidebar:
 
   # Scroll percent label in b2t button
   # 在回到顶部按钮里显示阅读百分比
-  scrollpercent: true
+  scrollpercent: false
 
 
 # Blog rolls
@@ -656,7 +656,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
@@ -665,11 +665,11 @@ three_waves: false
 canvas_lines: false
 
 # canvas_sphere
-canvas_sphere: true
+canvas_sphere: false
 
 # Only fit scheme Pisces
 # Canvas-ribbon
-canvas_ribbon: true
+canvas_ribbon: false
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
